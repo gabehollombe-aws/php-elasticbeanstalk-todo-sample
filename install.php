@@ -19,4 +19,7 @@
 	}
 	?>
 
+Front-end host: <?php echo gethostname(); ?><br>
+Database host: <?php echo $host; ?>
+
 <?php require("./templates/footer.php"); ?>
